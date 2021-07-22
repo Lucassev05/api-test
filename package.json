@@ -1,0 +1,36 @@
+{
+  "name": "boilerplate-cypress",
+  "version": "1.0.0",
+  "description": "cypress automation boillerplate",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "npx cypress run",
+    "cy:open": "npx cypress open",
+    "report": "node cypress/support/utils/htmlReporter.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucassev05/boilerplate-cypress.git"
+  },
+  "author": "Lucas Evangelista",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucassev05/boilerplate-cypress/issues"
+  },
+  "homepage": "https://github.com/Lucassev05/boilerplate-cypress#readme",
+  "devDependencies": {
+    "cypress": "^8.0.0",
+    "cypress-cucumber-preprocessor": "^4.1.4",
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    },
+    "nonGlobalStepDefinitions": true,
+    "nonGlobalStepBaseDir": "cypress/support/steps"
+  }
+}
