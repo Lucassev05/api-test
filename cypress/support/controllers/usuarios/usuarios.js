@@ -84,19 +84,6 @@ function validarResponse(reponseAlias) {
 
 //EDITAR PARA ACEITAR NA CRIAÇÃO, NA EDIÇÃO E NA DELEÇÃO
 function procurarUsuarioEmListagem(reponseAlias) {
-  let validarUsuario;
-
-  if (reponseAlias == "responseCriacao") {
-    validarUsuario = {
-      code: 201,
-      user: usuario,
-    };
-  } else if (reponseAlias == "responseExclusao") {
-    validarUsuario = {
-      code: 204,
-    };
-  }
-
   const queryString = {
     qs: {
       id: Cypress.env("usuarioId"),
