@@ -1,23 +1,8 @@
 {
-  "name": "boilerplate-cypress",
+  "name": "api-test",
   "version": "1.0.0",
-  "description": "cypress automation boillerplate",
+  "description": "cypress automation api",
   "main": "index.js",
-  "scripts": {
-    "cypress": "npx cypress run",
-    "cypress:open": "npx cypress open",
-    "report": "node cypress/support/utils/htmlReporter.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Lucassev05/boilerplate-cypress.git"
-  },
-  "author": "Lucas Evangelista",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Lucassev05/boilerplate-cypress/issues"
-  },
-  "homepage": "https://github.com/Lucassev05/boilerplate-cypress#readme",
   "devDependencies": {
     "cypress": "^8.0.0",
     "cypress-cucumber-preprocessor": "^4.1.4",
@@ -33,5 +18,25 @@
     },
     "nonGlobalStepDefinitions": true,
     "nonGlobalStepBaseDir": "cypress/support/steps"
-  }
+  },
+  "scripts": {
+    "cypress": "npx cypress run",
+    "cypress:open": "npx cypress open",
+    "report": "node cypress/support/utils/htmlReporter.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucassev05/api-test.git"
+  },
+  "keywords": [
+    "api",
+    "test",
+    "cypress"
+  ],
+  "author": "Lucas Evangelista",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lucassev05/api-test/issues"
+  },
+  "homepage": "https://github.com/Lucassev05/api-test#readme"
 }
