@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cypress": "npx cypress run",
-    "cy:open": "npx cypress open",
+    "cypress:open": "npx cypress open",
     "report": "node cypress/support/utils/htmlReporter.js"
   },
   "repository": {
@@ -21,6 +21,7 @@
   "devDependencies": {
     "cypress": "^8.0.0",
     "cypress-cucumber-preprocessor": "^4.1.4",
+    "faker": "^5.5.3",
     "multiple-cucumber-html-reporter": "^1.18.0"
   },
   "cypress-cucumber-preprocessor": {
