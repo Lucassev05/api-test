@@ -29,12 +29,12 @@ Casos de Testes Executados:
 > Clone o repositório
 
 ```shell
-git clone git@github.com:Lucassev05/api-test.git
+$ git clone git@github.com:Lucassev05/api-test.git
 ```
 ou
 
 ```shell
-git clone https://github.com/Lucassev05/api-test.git
+$ git clone https://github.com/Lucassev05/api-test.git
 ```
 
 ### Configuração
