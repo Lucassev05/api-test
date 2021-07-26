@@ -1,12 +1,10 @@
 {
   "testFiles": "**/*.feature",
-  "baseUrl": "https://your-base-url",
-  "viewportWidth": 1366,
-  "viewportHeight": 768,
+  "baseUrl": "https://gorest.co.in/public-api",
   "defaultCommandTimeout": 30000,
   "responseTimeout": 30000,
   "requestTimeout": 30000,
   "env": {
-    "your_variable": ""
+    "TOKEN": "2275e2cbbf8dc1d113b25fb018cdb2e07e088b35bb5f7b7c13ca160ed96a82ba"
   }
 }
