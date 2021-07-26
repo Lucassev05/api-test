@@ -2,7 +2,7 @@
 > Repositório de teste automáticos com cypress e cucumber.
 
 
-Desenvolvido com cypress e utilizando o cucumber, esse repositório contem alguns testes automatizados com objetivo de validar um conjunto de endpoints capazes de Criar,
+Desenvolvido com cypress e utilizando o cucumber, esse repositório contém alguns testes automatizados com objetivo de validar um conjunto de endpoints capazes de Criar,
 Editar, Listar, Detalhar e Deletar usuário.
 
 Casos de Testes Executados:
